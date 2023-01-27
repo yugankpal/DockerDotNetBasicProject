@@ -1,0 +1,14 @@
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\NewDockerProject.deps.json
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\NewDockerProject.runtimeconfig.json
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\appsettings.Development.json
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\appsettings.json
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\NewDockerProject.exe
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\NewDockerProject.dll
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\bin\Debug\NewDockerProject.pdb
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\palllyug\Desktop\old mat\NewDockerProject\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,34 @@
+services:
+  newdockerproject:
+    build:
+      context: C:\Users\palllyug\Desktop\old mat\NewDockerProject
+      dockerfile: NewDockerProject/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: NewDockerProject
+      target: base
+    container_name: NewDockerProject
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: newdockerproject:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\Users\palllyug\Desktop\old mat\NewDockerProject\NewDockerProject:/app:rw
+    - C:\Users\palllyug\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\palllyug\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\palllyug\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\palllyug\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\palllyug\Desktop\old mat\NewDockerProject:/src:rw
+version: '3.4'

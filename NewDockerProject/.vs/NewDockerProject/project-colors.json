@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6c35985f-35c5-47e3-bfcb-9da66a141bd2": {
+      "ProjectGuid": "6c35985f-35c5-47e3-bfcb-9da66a141bd2",
+      "DisplayName": "NewDockerProject",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

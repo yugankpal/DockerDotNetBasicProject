@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  newdockerproject:
+    image: ${DOCKER_REGISTRY-}newdockerproject
+    build:
+      context: .
+      dockerfile: NewDockerProject/Dockerfile
